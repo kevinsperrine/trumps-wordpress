@@ -1,0 +1,30 @@
+{
+  "name": "inuit-extension-wordpress",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hugobessaa/trumps.wordpress",
+  "authors": [
+    "Hugo Bessa <eu@hugobessa.com.br>"
+  ],
+  "description": "Wordpress styling with inuitcss framework extension",
+  "main": "_trumps.wordpress.scss",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css",
+    "wordpress"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "inuit-functions": "~0.2.0",
+    "inuit-defaults": "~0.1.2"
+  },
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "291fec40f18aa5679685774296f1431e7680dff2"
+  },
+  "_source": "https://github.com/hugobessaa/trumps-wordpress.git",
+  "_target": "~0.1.0",
+  "_originalSource": "inuit-extension-wordpress"
+}

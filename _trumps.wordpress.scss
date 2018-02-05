@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    #TRUMPS-WORDPRESS
+\*------------------------------------*/
+
+/**
+ * Wordpress helper classes styled using inuit base spacing
+ */
+$inuit-wordpress-spacing--normal:  $inuit-base-spacing-unit !default;
+$inuit-wordpress-spacing--medium:  halve($inuit-base-spacing-unit) !default;
+$inuit-wordpress-spacing--small:   quarter($inuit-base-spacing-unit) !default;
+$inuit-wordpress-spacing--tiny:    ($inuit-base-spacing-unit / 6) !default;
+
+/**
+ * Aliases for sanity
+ * wps is for Wordpress Spacing
+ */
+$inuit-wps--normal:  $inuit-wordpress-spacing--normal;
+$inuit-wps--medium:  $inuit-wordpress-spacing--medium;
+$inuit-wps--small:   $inuit-wordpress-spacing--small;
+$inuit-wps--tiny:    $inuit-wordpress-spacing--tiny;
+
+
+
+/**
+ * Alignment helper classes
+ */
+
+.alignnone {
+    margin: $inuit-wps--normal;
+    margin-left: 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: $inuit-wps--small auto;
+}
+
+.alignright {
+    float: right;
+    margin: $inuit-wps--normal;
+    margin-top: $inuit-wps--small;
+    margin-right: 0;
+}
+
+.alignleft {
+    float: left;
+    margin: $inuit-wps--normal;
+    margin-top: $inuit-wps--small;
+    margin-left: 0;
+}
+
+
+
+
+
+.wp-caption {
+    padding: $inuit-wps--small;
+
+    img {
+        border: 0 none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        max-width: 98.5%;
+    }
+
+    .wp-caption-text {
+        margin: 0;
+        padding: 0;
+    }
+
+}
